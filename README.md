@@ -4,7 +4,7 @@ Your challenge is to build the front-end of a micro blogging platform - think
 a very basic Twitter. A plain mock-up of the primary screen has been supplied.
 Use this as a base to build the front-end of the application.
 
-![Alt text](mockup.png "Application mockup")
+![Mock-up](mock-up.png)
 
 This repo contains a simple HTTP server that serves up a list of posts (tweets)
 via a GET request to `http://localhost:8000/posts`. Use the data returned to
