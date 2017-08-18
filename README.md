@@ -29,7 +29,7 @@ as place to kick off from.
 #### Running the server
 
     $ git clone git@github.com:PrimarySite/frontend-candidate-challenge.git
-    $ cd
+    $ cd frontend-candidate-challenge
     $ npm i
     $ npm start
 
