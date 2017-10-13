@@ -2,13 +2,11 @@ import { Map, List, fromJS } from 'immutable';
 
 import * as actions from '../actionTypes';
 
-const apiURL = 'http://localhost:8000';
-
 export function fetchPosts () {
   return function (dispatch) {
     dispatch(requestPosts());
 
-    fetch(`${apiURL}/posts`)
+    fetch('/posts')
       .then(res => res.json())
       .then(posts => dispatch(receivePosts(posts)))
       // In a real application we'd show the error in the UI.
